@@ -68,9 +68,9 @@ src/
 项目使用 MySQL 数据库，配置在 `application.properties` 文件中：
 
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/shop?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
-spring.datasource.username=root
-spring.datasource.password=root
+spring.datasource.url=<your-database-url>
+spring.datasource.username=<your-username>
+spring.datasource.password=<your-password>
 ```
 
 测试环境使用 H2 内存数据库：
@@ -91,7 +91,7 @@ spring.datasource.password=
 
 1. 克隆项目
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/ruaeva/Sx_shop-SpringBoot.git
 ```
 
 2. 配置数据库连接信息
